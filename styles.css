@@ -1,0 +1,85 @@
+:root {
+  font-family: monospace;
+}
+
+button,
+input[type='submit'],
+input[type='reset'] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.card-container {
+  width: 800px;
+  margin: 200px auto;
+  border-radius: 30px;
+  display: flex;
+  color: white;
+}
+
+.card-container .info-card {
+  width: calc(100% / 3);
+}
+
+.info-card {
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn-container {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.learn-more-btn {
+  padding: 10px 30px;
+  border-radius: 20px;
+  background-color: #d8d8d8;
+  height: 40px;
+  margin-top: auto;
+}
+
+.first-card {
+  background-color: #00b909;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.first-card button {
+  color: #00b909;
+}
+
+.second-card {
+  background-color: #707070;
+}
+
+.second-card button {
+  color: #707070;
+}
+
+.third-card {
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background-color: #353535;
+}
+
+.third-card button {
+  color: #353535;
+}
+
+.text-container {
+  padding: 0 20px;
+}
+
+.text-container img {
+  width: 40px;
+  height: auto;
+}
